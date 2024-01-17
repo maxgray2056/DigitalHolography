@@ -1,3 +1,15 @@
+@article{chen2023dh,
+  title={DH-GAN: a physics-driven untrained generative adversarial network for holographic imaging},
+  author={Chen, Xiwen and Wang, Hao and Razi, Abolfazl and Kozicki, Michael and Mann, Christopher},
+  journal={Optics Express},
+  volume={31},
+  number={6},
+  pages={10114--10135},
+  year={2023},
+  publisher={Optica Publishing Group}
+}
+
+
 # DH-GAN: A Physics-driven Untrained Generative Adversarial Network for 3D Microscopic Imaging using Digital Holography
 
 Digital holography (DH) is a 3D imaging technique by emitting a laser beam with a plane wavefront to an object and measuring the intensity of the diffracted waveform, called holograms. The object’s 3D shape can be obtained by numerical analysis of the captured holograms and recovering the incurred phase. 
@@ -8,7 +20,7 @@ In this work, we propose a new DL architecture based on generative adversarial n
 ![Digital Holography](./images/DH_system.jpg)
 
 More information, please reference our paper on Arxiv:
-<a href="https://arxiv.org/abs/2205.12920">DH-GAN: A Physics-driven Untrained Generative Adversarial Network for 3D Microscopic Imaging using Digital Holography</a>
+<a href="[https://arxiv.org/abs/2205.12920](https://opg.optica.org/oe/fulltext.cfm?uri=oe-31-6-10114&id=527879)">DH-GAN: A Physics-driven Untrained Generative Adversarial Network for 3D Microscopic Imaging using Digital Holography</a>
 
 
 ## Dendrite Samples
@@ -72,3 +84,21 @@ This project is contributed by:
 <a href="arazi@clemson.edu">Abolfazl Razi</a>
 
 ### Please cite our work if you think this project helps your research.
+
+@article{chen2023dh,
+  title={DH-GAN: a physics-driven untrained generative adversarial network for holographic imaging},
+  author={Chen, Xiwen and Wang, Hao and Razi, Abolfazl and Kozicki, Michael and Mann, Christopher},
+  journal={Optics Express},
+  volume={31},
+  number={6},
+  pages={10114--10135},
+  year={2023},
+  publisher={Optica Publishing Group}
+}
+
+
+
+
+
+
+
