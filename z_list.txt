@@ -1,0 +1,39 @@
+
+    # DIH_v32('./samples/TS-20220314115708421.tif', z=1700, mylamda=0, epoch=5000)    
+    # DIH_v32('./samples/TS-20220314115727220.tif', z=1600, mylamda=0, epoch=3000)    
+
+  
+    # DIH_v32('./samples/TS-20220314120059941.tif', z=1700, mylamda=0, epoch=5000)    
+    
+    # DIH_v32('./samples/TS-20220314120333012.tif', z=1700, mylamda=0, epoch=5000)    
+    
+    # DIH_v32('./samples/TS-20220314120954414.tif', z=1650, mylamda=0, epoch=5000)    
+    # DIH_v32('./samples/TS-20220314122041352.tif', z=1650, mylamda=0, epoch=5000)    
+    # DIH_v32('./samples/TS-20220314121324493.tif', z=1650, mylamda=0, epoch=5000)    
+    # DIH_v32('./samples/TS-20220314121530284.tif', z=1650, mylamda=0, epoch=5000)    
+    
+    
+    
+    # DIH_v32('./samples/TS-20220314120536224.tif', z=1600, mylamda=0, epoch=5000) 
+    # DIH_v32('./samples/TS-20220314120218002.tif', z=1600, mylamda=0, epoch=5000)    
+    # DIH_v32('./samples/TS-20220314115904643.tif', z=1600, mylamda=0, epoch=5000)    
+    # DIH_v32('./samples/TS-20220314120452319.tif', z=1600, mylamda=0, epoch=5000)    
+    
+    # DIH_v32('./samples/TS-20220314121315355.tif', z=1650, mylamda=0, epoch=5000)    
+
+    
+
+    # DIH_v32('./samples/TS-20220323160155098.tif', z=1800, mylamda=0, epoch=5000)    
+
+    # DIH_v32('./samples/TS-20220323163844679.tif', z=1700, mylamda=0, epoch=5000)    
+
+
+    # DIH_v32('./samples/TS-20220323164658438.tif', z=1500, mylamda=0, epoch=5000)    
+
+    # DIH_v32('./samples/TS-20220402201706674.tif', z=9550, mylamda=0, epoch=5000)    
+    
+    # DIH_v32('./samples/TS-20220310163413358.tif', z=1500, mylamda=0, epoch=3000) 
+
+    
+    # DIH_v32('./samples/TS-20220402201632996.tif', z=9500, mylamda=0, epoch=5000)    
+
