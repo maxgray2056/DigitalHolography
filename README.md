@@ -9,6 +9,9 @@
   publisher={Optica Publishing Group}
 }
 
+For more information, please reference our paper on Optics Express:
+[DH-GAN: A Physics-driven Untrained Generative Adversarial Network for 3D Microscopic Imaging using Digital Holography](https://doi.org/10.1364/OE.480894)
+
 
 # DH-GAN: A Physics-driven Untrained Generative Adversarial Network for 3D Microscopic Imaging using Digital Holography
 
@@ -19,8 +22,6 @@ In this work, we propose a new DL architecture based on generative adversarial n
 
 ![Digital Holography](./images/DH_system.jpg)
 
-More information, please reference our paper on Optics Express:
-[DH-GAN: A Physics-driven Untrained Generative Adversarial Network for 3D Microscopic Imaging using Digital Holography](https://doi.org/10.1364/OE.480894)
 
 ## Dendrite Samples
 In addition to simulated and public holograms, we use dendrite samples in our experiments. Dendrites are visual identifiers that are formed by growing tree-shaped metallic fractal patterns by inducing regulated voltage on electrolyte solutions with different propensities. These tags can be efficiently produced in large volumes on multiple substrate materials (e.g., mica, synthetic paper, etc.) with different granularity and density. 
