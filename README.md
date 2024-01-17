@@ -19,8 +19,8 @@ In this work, we propose a new DL architecture based on generative adversarial n
 
 ![Digital Holography](./images/DH_system.jpg)
 
-More information, please reference our paper on Arxiv:
-<a href="[https://arxiv.org/abs/2205.12920](https://opg.optica.org/oe/fulltext.cfm?uri=oe-31-6-10114&id=527879)">DH-GAN: A Physics-driven Untrained Generative Adversarial Network for 3D Microscopic Imaging using Digital Holography</a>
+More information, please reference our paper on Optics Express:
+<a href="[https://doi.org/10.1364/OE.480894](https://doi.org/10.1364/OE.480894)">DH-GAN: A Physics-driven Untrained Generative Adversarial Network for 3D Microscopic Imaging using Digital Holography</a>
 
 
 ## Dendrite Samples
