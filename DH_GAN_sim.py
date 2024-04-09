@@ -47,7 +47,7 @@ from torchsummary import summary
 # deltaY = 4
 # mylamda = -5e-4  #5e-4#for background tvloss
 
-image_size = 1000
+image_size = 500
 
 Nx = image_size
 Ny = image_size
@@ -430,7 +430,7 @@ def DIH_v32(image_path, z, mylamda, epoch):
     
     # setup_seed(120)
     
-    image_size = 1000
+    image_size = 500
     
     Nx = image_size
     Ny = image_size
@@ -499,8 +499,8 @@ def DIH_v32(image_path, z, mylamda, epoch):
     
     criterion = RECLoss(z) #ONLY FOR GENERATOR
     criterion_2 = BCELosswithLogits() # FOR G AND
-    # G = Generator().to(device)
-    G = Generator_SR().to(device) # enable super resolution
+    G = Generator().to(device)
+    # G = Generator_SR().to(device) # enable super resolution
     D = Discriminator().to(device)
     optimizer_G = optim.Adam(G.parameters(), lr=0.009)#9e-3
     optimizer_D = optim.Adam(D.parameters(), lr=0.005)#5e-3
@@ -516,11 +516,14 @@ def DIH_v32(image_path, z, mylamda, epoch):
     holo = torch.Tensor(np.concatenate([np.real(hologram)[np.newaxis,:,:], np.imag(hologram)[np.newaxis,:,:]], axis = 0))
     
     eta = eta.to(device).unsqueeze(0)
-    eta_500 = F.interpolate(eta, scale_factor=0.5, mode="bilinear")
+    # eta_500 = F.interpolate(eta, scale_factor=0.5, mode="bilinear")
+    eta_500 = eta
+
     
     holo = holo.to(device).unsqueeze(0)
-    holo_500 = F.interpolate(holo, scale_factor=0.5, mode="bilinear")
-    
+    # holo_500 = F.interpolate(holo, scale_factor=0.5, mode="bilinear")
+    holo_500 = holo
+
     
     # load the ground truth to compare
     ground_truth = (np.array(Image.open('./gray.bmp')))
